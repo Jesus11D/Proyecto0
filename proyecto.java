@@ -19,3 +19,7 @@ public class Burbuja {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
+
+                JOptionPane.showMessageDialog(
+                        null,
+                        "Intercambio entre posiciones " + j + " y " + (j + 1) + ":\n" + arrayToString(arr)
