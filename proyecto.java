@@ -23,3 +23,10 @@ public class Burbuja {
                 JOptionPane.showMessageDialog(
                         null,
                         "Intercambio entre posiciones " + j + " y " + (j + 1) + ":\n" + arrayToString(arr)
+                    );
+                }
+            }
+        }
+    }
+
+    public static String arrayToString(int[] arr) {
