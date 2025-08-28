@@ -30,3 +30,10 @@ public class Burbuja {
     }
 
     public static String arrayToString(int[] arr) {
+        StringBuilder sb = new StringBuilder();
+        for (int n : arr) {
+            sb.append(n).append(" ");
+        }
+        return sb.toString();
+    }
+}
